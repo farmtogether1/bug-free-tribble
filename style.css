@@ -1,0 +1,265 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.app{
+    background-image: url('home.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 20px 0 20px; 
+
+}
+.header_list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header_title{
+    font-size: 30px;
+}
+.header_button{
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.header_button:hover{
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    background-color: #d5d5d5;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about_image{
+    width: 300px;
+}
+.section_about{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+.about_content{
+    padding: 40px 20px;
+    border: 2px solid white;
+    background-color: #11101091;
+    border-radius: 10px;
+}
+.about_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about_des{
+    line-height: 16px;
+}
+.alert_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border: 2px solid white;
+    background-color: #11101091;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 20px ;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.section_alert{
+    display: flex;
+    justify-content: center;
+}
+.value_total, .value_feature{
+    border: 2px solid white;
+    background-color: #11101091; 
+    border-radius: 10px;
+}
+.section_value{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.value_list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.value_total{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+.value_feature{
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.value_button{
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.value_locked{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+.section_coin{
+    margin-top: 20px;
+}
+.coin_list{
+    display: flex;
+    justify-content: space-between;
+}
+.coin_image{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+}
+.coin_item{
+    position: relative;
+    border: 2px solid white;
+    background-color: #11101091; 
+    border-radius: 10px;
+    width: 30%;
+    padding: 30px 0;
+    text-align: center;
+}
+.coin_wallet{
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 10px;
+    border: 1px solid blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.coin_title{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.coin_current{
+    margin-bottom: 10px;
+}
+.coin_price{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.coin_price-update{
+    margin-bottom: 10px;
+}
+.coin_des{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.section_pool{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.pool_item{
+    width: 48%;
+    text-align: center;
+    border: 2px solid white;
+    background-color: #11101091; 
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.footer{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_list{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.footer_icon{
+    color: #3c4e5a;
+}
+
+/* stake */
+.boardroom{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.info_list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.info_item{
+    border: 2px solid white;
+    background-color: #11101091; 
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+    width: 15%;
+}
+.feature_image{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+}
+.feature_title{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.feature_item{
+    text-align: center;
+    padding: 50px;
+    border: 2px solid white;
+    background-color: #11101091; 
+    border-radius: 10px;
+}
+.section_feature{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.feature_button{
+    padding: 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.feature_claim{
+    display: flex;
+    justify-content: center;
+}
+.button_claim{
+    padding: 10px 20px;
+    margin: 40px 0;
+    cursor: pointer;
+}
